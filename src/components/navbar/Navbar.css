@@ -8,6 +8,7 @@
 .menu-bars {
   margin-left: 2rem;
   font-size: 2rem;
+  color: white;
 }
 .nav-menu {
   position: fixed; /*important*/
@@ -36,7 +37,7 @@
   text-decoration: none;
   color: white;
   font-size: 18px;
-  padding: 0 16px;
+  padding: 0 30px;
   width: 100%;
 }
 .nav-text a:hover {
@@ -47,4 +48,9 @@
 }
 span {
   margin-left: 16px;
+}
+.navbar-toggle {
+height: 80px;
+display: flex;
+align-items: center;
 }
